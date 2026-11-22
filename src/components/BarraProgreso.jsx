@@ -1,6 +1,6 @@
 // Dos barras horizontales decorativas.
 // La segunda lleva un tramo más oscuro que simula el progreso.
-// Porcentaje -> ancho del tramo oscuro de la segunda barra
+// Props: Porcentaje
 function BarraProgreso({ porcentaje = 60 }) {
   return (
     <div className="barras">
