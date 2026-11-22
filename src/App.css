@@ -49,3 +49,18 @@ body {
 /* Controles: Píldora gris con slider y botones */
 .controles { display: flex; align-items: center; gap: 8px; background: #eee; border-radius: 20px; padding: 6px 10px; }
 .controles input[type="range"] { flex: 1; min-width: 0; }
+
+/* Casillas: Dos columnas con tres casillas cada una */
+.casillas { display: flex; justify-content: space-between; font-size: 13px; }
+.columna { display: flex; flex-direction: column; gap: 4px; }
+
+/* Buscador redondeado */
+.busqueda { border: 1px solid #ccc; border-radius: 20px; padding: 8px; text-align: center; font-size: 14px; }
+
+/* Carrusel: Laterales pequeños y en gris, central grande y destacado */
+.carrusel { display: flex; justify-content: center; align-items: center; gap: 10px; }
+.emoji { font-size: 20px; filter: grayscale(1); }
+.emoji.centro { font-size: 34px; filter: none; border: 2px solid #555; border-radius: 12px; padding: 8px; background: #fff; }
+
+/* Navegación inferior separada por una línea */
+.nav { display: flex; justify-content: space-around; border-top: 1px solid #ddd; padding-top: 8px; font-size: 22px; }
