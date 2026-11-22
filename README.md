@@ -18,7 +18,7 @@ Después abre `http://localhost:5173/`.
 ## Proceso de creación
 
 1. Creé el proyecto con Vite: `npm create vite@latest reproductor-en-react` (React + JavaScript).
-2. Limpié los estilos y archivos de ejemplo de la plantilla.
+2. Limpié los estilos de ejemplo de la plantilla.
 3. Dividí el diseño en 9 componentes dentro de `src/components/`.
 4. Pasé los textos e imágenes a props con valores por defecto (Alejandro Sanz).
 5. Reuní los datos de cada cantante en `src/data/cantantes.js`.
