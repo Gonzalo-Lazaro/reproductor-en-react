@@ -7,7 +7,7 @@ Práctica de Desarrollo de interfaces: réplica en React de un mockup de reprodu
 ## Cómo ejecutar el proyecto
 
 ```bash
-git clone [URL del repositorio]
+git clone https://github.com/Gonzalo-Lazaro/reproductor-en-react.git
 cd reproductor-en-react
 npm install
 npm run dev
